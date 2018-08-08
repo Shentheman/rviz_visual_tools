@@ -98,7 +98,13 @@ enum colors
   TRANSLUCENT_DARK = 17,
   RAND = 18,
   CLEAR = 19,
-  DEFAULT = 20  // i.e. 'do not change default color'
+  DEFAULT = 20,  // i.e. 'do not change default color'
+  // Shen
+  // http://colorbrewer2.org/#type=diverging&scheme=RdYlGn&n=4
+  RdYlGn_RED = 21,
+  RdYlGn_ORANGE = 22,
+  RdYlGn_LIGHT_GREEN = 23,
+  RdYlGn_GREEN = 24
 };
 
 enum scales

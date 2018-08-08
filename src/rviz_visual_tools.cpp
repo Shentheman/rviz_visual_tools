@@ -491,6 +491,32 @@ std_msgs::ColorRGBA RvizVisualTools::getColor(colors color)
       result.b = 1.0;
       result.a = alpha_;
       break;
+    // Shen
+    // http://colorbrewer2.org/#type=diverging&scheme=RdYlGn&n=4
+    case RdYlGn_RED:
+      result.r = 0.843;
+      result.g = 0.098;
+      result.b = 0.11;
+      result.a = alpha_;
+      break;
+    case RdYlGn_ORANGE:
+      result.r = 0.992;
+      result.g = 0.682;
+      result.b = 0.38;
+      result.a = alpha_;
+      break;
+    case RdYlGn_LIGHT_GREEN:
+      result.r = 0.651;
+      result.g = 0.851;
+      result.b = 0.416;
+      result.a = alpha_;
+      break;
+    case RdYlGn_GREEN:
+      result.r = 0.102;
+      result.g = 0.588;
+      result.b = 0.255;
+      result.a = alpha_;
+      break;
     case RAND:
       result = createRandColor();
       break;
